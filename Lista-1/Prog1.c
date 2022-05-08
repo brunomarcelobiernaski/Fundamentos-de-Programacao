@@ -11,7 +11,6 @@ int main()
     {
         scanf("%d", &vet[i]);
     }
-
     for(i= n; i > 0; i--)
     {
         printf("%d ", vet[i-1]);
