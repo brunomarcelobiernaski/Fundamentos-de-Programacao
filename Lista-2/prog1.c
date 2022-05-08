@@ -1,4 +1,5 @@
-/*Desenvolva um programa para ler um caractere alfabético e a seguir mostre no dispositivo de saída os respectivos caracteres antecessor (quando não houver mostrar “*”) e sucessor (quando não houver mostrar “*”) do caractere lido.*/
+/*Desenvolva um programa para ler um caractere alfabético e a seguir mostre no dispositivo de saída os respectivos caracteres antecessor 
+(quando não houver mostrar “*”) e sucessor (quando não houver mostrar “*”) do caractere lido.*/
 
 #include <stdio.h>
 
