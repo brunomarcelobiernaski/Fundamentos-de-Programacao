@@ -16,6 +16,5 @@ int main()
     {
         printf("%d ", vet[i-1]);
     }
-
     return 0;
 }
