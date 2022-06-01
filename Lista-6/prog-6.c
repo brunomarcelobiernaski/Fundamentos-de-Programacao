@@ -1,3 +1,5 @@
+//Escrever um programa que leia dois vetores de mesmo tamanho. O usuário deverá informar o tamanho e os elementos dos vetores. Escrever uma função que receba como parâmetros os vetores lidos e gere um novo vetor que corresponda aos vetores passados como parâmetro de forma intercalada.
+
 #include <stdio.h>
 #include <stdlib.h>
 
