@@ -1,3 +1,6 @@
+//Faça um programa que receba, armazene e imprima na tela o nome e a idade de um número de pessoas fornecido pelo usuário. (Obs.: Utilize struct e alocação dinâmica de memória).
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #define TAM 100
