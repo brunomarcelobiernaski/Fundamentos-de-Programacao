@@ -1,5 +1,6 @@
 /*Leia um valor inteiro (variável “a”) e a seguir construa um vetor de 10 posições (variável “x”) com o resultado da seguinte expressão:
 x[i] = a + i; para todo “i” variando de 0 até 9; Mostre os elementos do vetor “x” como resultado final.*/
+
 #include <stdio.h>
 #define tam 10
 

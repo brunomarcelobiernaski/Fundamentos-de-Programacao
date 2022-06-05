@@ -14,26 +14,25 @@ char *findAlphabeticFile(FILE *f){
   while(!feof(f)){
     c = fgetc(f);
     if((c >= 65 && c <= 90) || (c >= 97 && c <= 122)){
-     frase[i] = c;
-     i++;
+     frase[i++] = c;
     }
   }
   frase[i] = '\0';
+  if(i == 0){
+    return NULL;
+  }
   return frase;
 }
 
 int main(){
   FILE *f = fopen("arquivo.txt","w+");
-  char frase[] = "Teste 123 Teste 123";
-
+  char frase[] = "12345&!00";
   fprintf(f,"%s",frase);
   rewind(f);
-
   char *s = findAlphabeticFile(f);
-  printf("%s\n",s);
-  
+  if(s == NULL)
+    printf("NULL");
   fclose(f);
   free(s);
-  
   return 0;
 }
